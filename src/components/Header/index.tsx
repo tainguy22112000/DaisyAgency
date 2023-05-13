@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import PrimaryButton from '../PrimaryButton'
+import { Logo } from '~/assets/icon'
 
 const Header = () => {
   return (
     <div className={styles.container}>
       <div className={styles.navbar}>
-        <div className={styles.logo}>
-          <img src="src\assets\images\Logo.png" alt="Logo" />
+        <div>
+          <Logo/>
         </div>
         <div className={styles.seperated}></div>
         <div className={styles.navigation}>
