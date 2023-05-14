@@ -1,2 +1,8 @@
 export { default as ErrorIcon } from '../svg/404-image.svg'
 export { default as Logo } from '../svg/Logo.svg'
+export { default as Basketball } from '../svg/Basketball.svg'
+export { default as BehanceIcon } from '../svg/BehanceIcon.svg'
+export { default as FacebookIcon } from '../svg/FacebookIcon.svg'
+export { default as InstagramIcon } from '../svg/InstagramIcon.svg'
+export { default as TwitterIcon } from '../svg/TwitterIcon.svg'
+export { default as DiscordIcon } from '../svg/DiscordIcon.svg'
