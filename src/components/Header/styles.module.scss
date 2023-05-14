@@ -1,5 +1,4 @@
-@import 'src/styles/colors';
-@import 'src/styles/fonts';
+@use 'src/styles' as *;
 * {
     margin: 0;
     padding: 0;

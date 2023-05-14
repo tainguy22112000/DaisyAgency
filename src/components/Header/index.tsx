@@ -14,7 +14,7 @@ const Header = () => {
         <div className={styles.seperated}></div>
         <div className={styles.navigation}>
           <ul>
-            <li className={styles.active}><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/" className={styles.active}>Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/solution">Solutions & Services</NavLink></li>
             <li><NavLink to="/news">News</NavLink></li>
