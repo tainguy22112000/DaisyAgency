@@ -6,9 +6,7 @@ import Header from './components/Header'
 function App() {
   return (
     <div>
-      <Header/>
       <RouterProvider router={router}></RouterProvider>
-      <Footer/>
     </div>
   )
 }

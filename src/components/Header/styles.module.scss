@@ -1,12 +1,14 @@
+@import 'src/styles/colors';
+@import 'src/styles/fonts';
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: $text-base;
 }
 
 .container {
-    background-color: #fff;
+    background-color: $color-white;
     height: 72px;
     padding: 0 100px;
     display: flex;
@@ -24,7 +26,7 @@
     width: 1px;
     height: 20px;
     margin-left: 40px;
-    background-color: #E9E9E9;
+    background-color: $color-lightred;
 }
 
 .navigation ul {
@@ -35,11 +37,11 @@
             display: block;
             margin-left: 32px;
             text-decoration: none;
-            color: #909090;
+            color: $color-grey;
         }
         .active {
-            color: #000;
-            font-weight: 600;
+            color: $color-black;
+            font-weight: $font-semibold;
         }
     }
 }
