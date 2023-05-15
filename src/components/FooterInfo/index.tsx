@@ -9,13 +9,11 @@ type props = {
 }
 export default function FooterInfo({title, info, link}: props) {
   return (
-    <div>
-        <ul>
-            <li><NavLink to={link} className={styles.title}>{title}</NavLink></li>
-            {info.map((value, key) => (
-                <li key={key} className={styles.info}>{value}</li>
-            ))}      
-        </ul>
-    </div>
+    <ul>
+        <li><NavLink to={link} className={styles.title}>{title}</NavLink></li>
+        {info.map((value, key) => (
+            <li key={key} className={styles.info}>{value}</li>
+        ))}      
+    </ul>
   )
 }
