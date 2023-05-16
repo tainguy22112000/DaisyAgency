@@ -4,15 +4,14 @@
     padding: 0;
     font-family: 'Roboto';
     font-size: $text-base;
+    letter-spacing: 0.02em;
 }
 
 .container {
     background-color: $color-white;
     height: 72px;
     padding: 0 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include flex-row;
 }
 
 .navbar {

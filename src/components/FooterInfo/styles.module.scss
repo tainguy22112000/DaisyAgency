@@ -1,0 +1,15 @@
+@use 'src/styles' as *;
+ul {
+    list-style-type: none;
+    li {
+        margin-bottom: 20px;
+        max-width: 278px;
+        line-height: 1.4;
+        color: $color-grey;
+    }
+    .title {
+        color: $color-black;
+        font-weight: $font-bold;
+        text-decoration: none;
+    }
+}
