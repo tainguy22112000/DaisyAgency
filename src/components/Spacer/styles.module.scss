@@ -1,0 +1,22 @@
+@use 'src/styles' as *;
+.spacing {
+    width: auto;
+    &.sm {
+        height: $spacing-sm;
+    }
+    &.md {
+        height: $spacing-md;
+    }
+    &.lg {
+        height: $spacing-lg;
+    }
+    &.xl {
+        height: $spacing-xl;
+    }
+    &.xxl {
+        height: $spacing-2xl;
+    }
+    &.xxxl {
+        height: $spacing-3xl;
+    }
+}
