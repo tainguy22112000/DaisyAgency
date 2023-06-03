@@ -3,3 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@mixin text-bold {
+    color: $color-black;
+    font-weight: $font-bold;
+}
+
+@mixin textbold-medium {
+    color: $color-black;
+    font-weight: $font-medium;
+}
