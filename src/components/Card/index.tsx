@@ -2,12 +2,12 @@ import { ReactNode } from 'react'
 import classNames from 'classnames';
 import styles from './styles.module.scss'
 
-type FeatureProps = {
+type CardProps = {
     children: ReactNode;
     padding: string;
 }
 
-export default function Card({ children, padding }: FeatureProps) {
+export default function Card({ children, padding = 'md' }: CardProps) {
   return (
     <div className={classNames(styles.container, {
       [styles.sm]: padding === 'sm',

@@ -60,17 +60,17 @@ export const userComments = [{
 }];
 
 export const news = [{
-    image: <img src="src\assets\images\NewsImg01.png"/>,
+    image: <img src="src\assets\images\NewsImg01.png" alt="news-01"/>,
     date: "Oct 10, 2022",
     title: "System maintenance",
     content: "PSYS constantly invests, deploys and integrates more and more tools and new technology applications to ensure stable and fast operation of the system."
 }, {
-    image: <img src="src\assets\images\NewsImg02.png" />,
+    image: <img src="src\assets\images\NewsImg02.png" alt="news-02" />,
     date: "Oct 10, 2022",
     title: "System maintenance",
     content: "PSYS constantly invests, deploys and integrates more and more tools and new technology applications to ensure stable and fast operation of the system."
 }, {
-    image: <img src="src\assets\images\NewsImg03.png" />,
+    image: <img src="src\assets\images\NewsImg03.png" alt="news-03" />,
     date: "Oct 10, 2022",
     title: "System maintenance",
     content: "PSYS constantly invests, deploys and integrates more and more tools and new technology applications to ensure stable and fast operation of the system."

@@ -10,7 +10,7 @@ type UserAvatarProps = {
 export default function UserInfo({avatar, name, role}: UserAvatarProps) {
     return (
     <div className={styles.container}>
-        <img src={avatar} />
+        <img src={avatar} alt="user-avatar" />
         <div className={styles.userInfo}>
             <p className={styles.userName}>{name}</p>
             <p className={styles.userRole}>{role}</p>

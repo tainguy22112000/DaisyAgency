@@ -64,20 +64,20 @@ export const HomePage = () => {
           <div>
             <div className={styles.imgStructure}>
               <div className={styles.imgLeft}>
-                <img className={styles.imgFloatRight} src="src\assets\images\Solution1.png"/>
+                <img className={styles.imgFloatRight} src="src\assets\images\Solution1.png" alt="solution-01" />
                 <Spacer size="2xl"/>
-                <img src="src\assets\images\Solution2.png"/>
+                <img src="src\assets\images\Solution2.png" alt="solution-02" />
               </div>
               <div className={styles.imgRight}>
-                <img src="src\assets\images\Solution3.png"/>
+                <img src="src\assets\images\Solution3.png" alt="solution-03" />
                 <Spacer size="2xl"/>
-                <img src="src\assets\images\Solution4.png"/>
+                <img src="src\assets\images\Solution4.png" alt="solution-04" />
               </div>
             </div>
             <Spacer size="2xl"/>
             <div className={styles.imgStructure}>
-              <img className={styles.imgMarginLeft} src="src\assets\images\Solution5.png" />
-              <img className={styles.imgRight20} src="src\assets\images\Solution6.png" />
+              <img className={styles.imgMarginLeft} src="src\assets\images\Solution5.png" alt="solution-05" />
+              <img className={styles.imgRight20} src="src\assets\images\Solution6.png" alt="solution-06" />
             </div>
           </div>
       </div>
@@ -121,14 +121,14 @@ export const HomePage = () => {
       {/* Logos */}
       <div className={styles.logos}>
           <div>
-            <img src="src\assets\images\Cortex.png" />
-            <img src="src\assets\images\Paloalto.png" />
-            <img src="src\assets\images\Prisma.png" />
+            <img src="src\assets\images\Cortex.png" alt="logo-cortex" />
+            <img src="src\assets\images\Paloalto.png" alt="logo-paloalto" />
+            <img src="src\assets\images\Prisma.png" alt="logo-prisma" />
           </div>
           <div>
-            <img src="src\assets\images\Strata.png" />
-            <img src="src\assets\images\Unit42.png" />
-            <img src="src\assets\images\Juniper.png" />
+            <img src="src\assets\images\Strata.png" alt="logo-strata" />
+            <img src="src\assets\images\Unit42.png" alt="logo-unit42" />
+            <img src="src\assets\images\Juniper.png" alt="logo-juniper" />
           </div>
       </div>
 
@@ -148,7 +148,7 @@ export const HomePage = () => {
               <PrimaryButton title="Confirm"/>
           </div>
           <div>
-            <img src="src\assets\images\MoreInfoImg.png" />
+            <img src="src\assets\images\MoreInfoImg.png" alt="more-infor-image" />
           </div>
       </div>       
 

@@ -5,7 +5,7 @@ type SpacerProps = {
     size: string;
 }
 
-export default function Spacer({size}: SpacerProps) {
+export default function Spacer({size = 'md'}: SpacerProps) {
   return (
     <div className={classNames(styles.spacing, {
         [styles.sm]: size === 'sm',
