@@ -105,7 +105,7 @@ export const HomePage = () => {
         </div>
         <div className={styles.news}>
             {news.map((value, key) => (
-              <Card padding="sm">
+              <Card padding="sm" key={key}>
                 {value.image}
                 <Spacer size="lg" />
                 <Paragraph>{value.date}</Paragraph>
