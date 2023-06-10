@@ -1,11 +1,10 @@
 import { RouterProvider } from 'react-router-dom'
 import { router } from './routes'
-import { Footer } from './components/Footer'
-import Header from './components/Header'
+import styles from './style.module.scss'
 
 function App() {
   return (
-    <div>
+    <div className={styles.appBackground}>
       <RouterProvider router={router}></RouterProvider>
     </div>
   )
