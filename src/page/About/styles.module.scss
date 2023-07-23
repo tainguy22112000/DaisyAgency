@@ -1,0 +1,175 @@
+@use 'src/styles' as *;
+.container {
+    @include container-padding;
+}
+
+.title {
+    @include title-margin;
+}
+
+.subHeading {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.introduction {
+    padding: 70px 0px;
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.introCulture {
+    width: 50%;
+}
+
+.introQuality {
+    width: 40%;
+    height: 490px;
+    background-color: $color-lightpink;
+    border-radius: 100%;
+    margin: 60px 0 70px;
+    @include flex-center;
+}
+
+.introHeading {
+    font-size: $text-4xl;
+    font-weight: $font-bold;
+}
+
+.content {
+    text-align: center;
+    width: 53%;
+}
+
+.introSpirit {
+    width: 30%;
+    height: 360px;
+    background-color: $color-lightmud;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 70px;
+    left: 500px;
+    @include flex-center;
+}
+
+.introPeople {
+    width: 40%;
+    height: 490px;
+    background-color: $color-lightblue;
+    border-radius: 100%;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    @include flex-center;
+}
+
+.headingWrapper {
+    text-align: center;
+}
+
+.processCards {
+    @include flex-row;
+    gap: 24px;
+    text-align: center;
+    div {
+        max-width: 292px;
+    }
+}
+
+.processProgressBar {
+    @include flex-row;
+    align-items: center;
+    margin: 0px 100px 140px;
+    .processNumber {
+        width: 22px;
+        height: 22px;
+        color: $color-white;
+        text-align: center;
+        line-height: 22px;
+        padding: 10px;
+        background-color: $color-black;
+        border-radius: 50%;
+    }
+}
+
+.whyContainer {
+    position: relative;
+    margin: 0 -100px 140px;
+    img {
+        width: 100%;
+    }
+    .strengthContainer {
+        position: absolute;
+        top: 106px;
+        left: 100px;
+        max-width: 25%;
+    }
+}
+
+.whyTitle {
+    div {
+        color: $color-white;
+    }
+}
+
+.strengthList {
+    @include flex-row;
+    flex-wrap: wrap;
+    gap: 24px;
+    .strengthWrapper {
+        max-width: 35%;
+        min-height: 140px;
+        padding: 20px 16px;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(20px);
+    }
+    .strengthDescription {
+        color: $color-white;
+        line-height: 1.4;
+        font-weight: 300;
+        letter-spacing: 0.28px;
+        word-break: break-word;
+    }
+}
+
+.ourTeamContainer {
+    margin-bottom: 140px;
+}
+
+.ourTeamWrapper {
+    @include flex-row;
+    text-align: center;
+    gap: 24px;
+    img {
+        width: 60px;
+    }
+    .memName {
+        text-transform: uppercase;
+        letter-spacing: 0.64px;
+        font-weight: $font-semibold;
+        line-height: 1.4;
+    }
+    .memRole {
+        color: $color-primary;
+        font-weight: $font-semibold;
+        letter-spacing: 0.28px;
+        line-height: 1.4;
+    }
+    .memQuote {
+        color: $color-grey;
+        font-weight: $font-regular;
+        letter-spacing: 0.28px;
+        line-height: 1.4;
+    }
+}
+
+.logos {
+    margin-bottom: 140px;
+    div {
+        display: flex;
+        justify-content: center
+    }
+}
