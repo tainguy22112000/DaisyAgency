@@ -38,7 +38,8 @@
             text-decoration: none;
             color: $color-grey;
         }
-        .active {
+        a[class="active"],
+        a:hover {
             color: $color-black;
             font-weight: $font-semibold;
         }
