@@ -13,7 +13,9 @@ export default function Spacer({size = 'md'}: SpacerProps) {
         [styles.lg]: size === 'lg',
         [styles.xl]: size === 'xl',
         [styles.xxl]: size === '2xl',
-        [styles.xxxl]: size === '3xl'
+        [styles.xxxl]: size === '3xl',
+        [styles.spacer48]: size === 'spacer48',
+        [styles.spacer60]: size === 'spacer60'
       })}></div>
   )
 }
