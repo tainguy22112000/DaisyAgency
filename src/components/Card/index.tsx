@@ -13,7 +13,8 @@ export default function Card({ children, padding = 'md' }: CardProps) {
       [styles.sm]: padding === 'sm',
       [styles.md]: padding === 'md',
       [styles.lg]: padding === 'lg',
-      [styles.xl]: padding === 'xl'
+      [styles.xl]: padding === 'xl',
+      [styles.p28]: padding === 'padding28'
     })}>
         {children}
     </div>
