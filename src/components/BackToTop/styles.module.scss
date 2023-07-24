@@ -1,0 +1,14 @@
+@use 'src/styles' as *;
+.backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    color: $color-white;
+    background-color: $color-black;
+    border-radius: 50%;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+}
