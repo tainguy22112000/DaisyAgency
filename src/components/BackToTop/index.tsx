@@ -13,7 +13,7 @@ export default function BackToTop() {
         if (scrolled > SCROLL_THRESHOLD){
           setVisible(true)
         } 
-        else if (scrolled <= 400){
+        else if (scrolled <= SCROLL_THRESHOLD){
           setVisible(false)
         }
       };
