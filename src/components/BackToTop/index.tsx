@@ -3,12 +3,14 @@ import { FaChevronUp } from 'react-icons/fa'
 import styles from './styles.module.scss'
 import classNames from 'classnames';
 
+const SCROLL_THRESHOLD = 400;
+
 export default function BackToTop() {
     const [visible, setVisible] = useState<boolean>(false);
 
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 300){
+        if (scrolled > SCROLL_THRESHOLD){
           setVisible(true)
         } 
         else if (scrolled <= 400){
