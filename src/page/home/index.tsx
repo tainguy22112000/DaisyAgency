@@ -4,7 +4,7 @@ import Spacer from '~/components/Spacer';
 import Card from '~/components/Card';
 import { NavLink } from 'react-router-dom';
 import { features, solutions, userComments, news } from '~/constants/Homepage';
-import PrimaryButton from '~/components/PrimaryButton';
+import { PrimaryButton } from '~/components/Button';
 
 export const HomePage = () => {
   return (

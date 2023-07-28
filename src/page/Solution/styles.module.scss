@@ -1,0 +1,49 @@
+@use 'src/styles' as *;
+.container {
+    @include container-padding;
+}
+
+.title {
+    @include title-margin;
+}
+
+.solutionMainContainer {
+    margin-bottom: 140px;
+}
+
+.solutionContainerLeft {
+    @include flex-row;
+    .contentWrapperLeft {
+        padding: 70px 70px 0 0;
+    }
+}
+
+.solutionContainerRight {
+    display: flex;
+    .contentWrapperRight {
+        padding: 70px 0 0 70px;
+    }
+}
+
+.description {
+    color: $color-grey;
+    width: 316px;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.newsContainer {
+    margin-bottom: 140px;
+    .news {
+        @include flex-row;
+        >div {
+            width: 29%;
+            padding-bottom: 24px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
-import PrimaryButton from '../PrimaryButton'
+import { PrimaryButton } from '../Button'
 import { Logo } from '~/assets/icon'
 import { NavLink } from 'react-router-dom'
 

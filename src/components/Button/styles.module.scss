@@ -1,0 +1,22 @@
+@use 'src/styles' as *;
+.primaryButton {
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: $font-medium;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 32px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.secondaryButton {
+    background-color: $color-white;
+    color: $color-primary;
+    font-weight: $font-medium;
+    padding: 16px 32px;
+    border: 1px solid $color-primary;
+    border-radius: 32px;
+    cursor: pointer;
+}
