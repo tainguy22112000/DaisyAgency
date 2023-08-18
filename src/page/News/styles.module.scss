@@ -31,9 +31,9 @@
     }
 }
 
-.carousel {
+.sliders {
     position: relative;
-    margin: 0 -100px 140px;
+    margin-bottom: 140px;
     img {
         width: 100%;
     }
@@ -42,7 +42,7 @@
         left: 40px;
         top: 40px;
     }
-    .newsWrapper {
+    .activeSlide {
         position: absolute;
         top: 50%;
         left: 0;
@@ -58,23 +58,83 @@
             justify-content: flex-end;
         }
     }
+    .hiddenSlide {
+        display: none;
+    }
 }
 
-.carouselDisplayBar {
+.indicators {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
     padding-top: 40px;
-    .carouselElement {
+    .activeIndicator {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: $color-lightred;
-    }
-    .display,
-    .carouselElement:hover {
         background-color: $color-primary;
         cursor: pointer;
+    }
+    .inactiveIndicator {
+        background-color: $color-lightred;
+        &:hover {
+            background-color: $color-primary;
+        }
+    }
+}
+
+.seperatedLine {
+    border-top: 1px solid $color-neutralgrey;
+    margin: 60px 0;
+}
+
+.newsList {
+    margin-bottom: 140px;
+    img {
+        width: 100%;
+    }
+    @include flex-row;
+    flex-wrap: wrap;
+    gap: 44px 16px;
+    div {
+        max-width: 340px;
+    }
+}
+
+.viewMoreBtn {
+    display: block;
+    margin: 16px auto 0;
+    button {
+        color: $color-grey;
+        border: 1px solid $color-grey;
+    }
+}
+
+.contact {
+    @include flex-row;
+    margin-bottom: 140px;
+    .contactForm {
+        width: 45%;
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 40px 0;
+        }
+        .formInput {
+            padding: 16px;
+            color: $color-grey;
+            border: 1px solid $color-lightred;
+            border-radius: 10px;
+        }
+        textarea:focus,
+        input:focus {
+            outline: none;
+            box-shadow: 0px 8px 32px rgba(177, 177, 177, 0.5);
+        }
+        button {
+            width: 100%;
+            padding: 16px;
+        }
     }
 }
